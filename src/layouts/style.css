@@ -1,0 +1,17 @@
+/* .has-arrow > li > a {    
+    box-shadow: -1px 0px 0px 0px #D1D4DB inset;
+    color: red;
+} */
+/* .metismenu > li:hover {
+    background: var(--neutral-20, #F5F5F5);
+} */
+.deznav .metismenu > li.mm-active > a {
+  background: var(--neutral-20, #404040);
+  font-weight: 400;
+}
+
+.nav-text,
+.menu-icon,
+.metismenu:hover {
+  color: var(--primary-main, #404040);
+}

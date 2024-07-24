@@ -1,0 +1,70 @@
+table,
+tr td {
+  padding: 10px !important;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* even columns width , fix width of table too*/
+}
+thead {
+  width: calc(
+    100% - 1em
+  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+.custom-height {
+  display: block;
+  height: 350px !important;
+  overflow: auto;
+}
+
+.download-range {
+  width: 100%;
+  margin-bottom: 12px;
+  margin-top: -16px;
+}
+
+.daterangepicker {
+  height: 200px !important;
+  overflow: scroll !important;
+  right: auto;
+  display: block;
+  position: absolute;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 278px;
+  max-width: none;
+  padding: 0;
+  margin-top: 7px;
+  top: 100px;
+  left: 20px;
+  z-index: 3001;
+  display: none;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1em;
+}
+.user-info {
+  margin-top: 10px;
+}
+.adress-info {
+  margin-left: 15px;
+}
+.fireFoxStyle {
+  height: 2.813rem !important;
+  width: 2.813rem !important;
+}
+
+.clear-btn {
+  margin-right: 11px;
+  margin-bottom: 27px;
+  color: white;
+  font-size: 13px;
+}
+.clear-btn:hover {
+  background: black !important;
+}

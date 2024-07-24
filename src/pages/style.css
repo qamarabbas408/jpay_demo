@@ -1,0 +1,72 @@
+.heading {
+  color: var(--neutral-100, #0a0a0a);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.34px;
+}
+
+.text-align-last-center {
+  text-align-last: center;
+}
+
+.text-align-last-start {
+  text-align-last: left;
+}
+
+.primary-color {
+  color: var(--primary-btn-color);
+}
+
+.primary-bg-color {
+  color: #fff;
+  background-color: var(--primary-btn-color);
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.table-bg-header {
+  background-color: #f5f5f5;
+}
+
+.table-heading-text {
+  border-right-color: #e0e0e0;
+  border-right-width: 1px;
+  color: #000;
+}
+
+@media (max-width: 1400px) {
+  .emp-table {
+    width: 155vh !important;
+  }
+}
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 810px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+.allEmpHead td {
+  overflow: scroll;
+}
+
+.allEmpHead td .overflow-class {
+  overflow: scroll;
+}
+
+.allEmpHead th {
+  overflow: scroll;
+}
+.error-modal-body {
+  max-height: 60vh;
+  overflow: scroll;
+}
+.userList li:hover {
+  background: none !important;
+}

@@ -1,0 +1,202 @@
+.login-btn {
+  align-self: center;
+}
+
+.headingWithText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-bg {
+  height: 100vh;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.signup-bg2 {
+  background-size: cover;
+  object-fit: contain;
+}
+
+.bg-image {
+  height: 100vh;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.bg-image2 {
+  background-size: cover;
+  object-fit: contain;
+}
+
+.forgot-bg {
+  height: 100vh;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.bg-image-success {
+  height: 100vh;
+  background-size: cover;
+  object-fit: contain;
+}
+
+@media only screen and (max-height: 404px) {
+  .bg-image-success {
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 255px) {
+  .forgot-bg {
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 484px) {
+  .bg-image {
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  .signup-bg {
+    height: auto;
+  }
+}
+
+.email-heading {
+  color: var(--0048-b-2-primary-dark, #0048b2);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.term-privacy {
+  color: var(--8-a-92-a-6-text-color-2, #8a92a6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0px;
+  /* line-height: 175%; */
+}
+
+.text-color {
+  color: var(--232-d-42-text-color-1, #232d42);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.check-box {
+  width: 16px;
+  height: 16px;
+  filter: drop-shadow(0px 2px 4px rgba(55, 125, 255, 0.25));
+}
+
+.remember {
+  margin-bottom: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.signup-fields {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+@media only screen and (max-width: 1206px) {
+  .signup-fields {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .signup-fields {
+    justify-content: center;
+  }
+}
+
+.login-mainCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.logo {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 28px;
+}
+.lock-src-mainCon {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-height: 364px) {
+  .lock-src-mainCon {
+    height: auto;
+  }
+}
+
+.lockbg {
+  height: 100vh;
+}
+
+@media only screen and (max-height: 364px) {
+  .lockbg {
+    height: auto;
+  }
+}
+
+.twofacCon {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+}
+
+.twoRemberMeCon {
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.twoRemberMe {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .twofacCon {
+    width: 100%;
+  }
+}
+
+.separator {
+  background: #888888;
+  height: 1px;
+  width: 46%;
+}
+
+.separator-con {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.object-contain {
+  object-fit: contain;
+}
